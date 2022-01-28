@@ -1,0 +1,41 @@
+#copy-popup {
+	position: fixed;
+	width: 300px;
+	padding: 20px;
+	background: white;
+	border-radius: 8px;
+	border:1px solid #15847b;
+	left: 50%;
+	top: 50%;
+	z-index: 999999;
+	transform: translate(-50%, -50%);
+	box-shadow: var(--basicShadow);
+}
+
+#copy-popup button:first-child {
+	background: #15847b;
+	border:none;
+	color: white;
+	font-size: 16px;
+	padding: 8px 16px;
+	border-radius: 6px;
+	font-weight: 500;
+	font-family: inherit;
+}
+
+#copy-popup button:last-child {
+	background: #eaebec;
+	border:none;
+	color: #0e1e25;
+	font-size: 16px;
+	padding: 8px 16px;
+	border-radius: 6px;
+	font-weight: 500;
+	font-family: inherit;
+}
+
+#copy-popup > div {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 10px;
+}
