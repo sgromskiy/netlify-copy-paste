@@ -19,8 +19,9 @@ jQuery( document ).ready(function() {
     		const rowValue = $(row).find('input[name="value"]').val();
     		data.push({rowKey, rowValue})
     	})
-    	console.dir( data );
-    	copyToClipboard(data)
+    	
+    	copyToClipboard(data);
+	areaCopy.val(JSON.stringify(data));
     	}, 1000);
     	
     });
@@ -49,8 +50,7 @@ jQuery( document ).ready(function() {
     		rowValueInput.val(newData[idx].rowValue);
     	})
     	}, 2000);
-    	
-    	console.log(JSON.parse(areaCopy.val()))
+  	
     });
     
     
