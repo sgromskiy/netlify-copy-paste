@@ -3,12 +3,12 @@
 	width: 300px;
 	padding: 20px;
 	background: white;
-	border-radius: 8px;
+	border-radius: 8px 0 0 8px;
 	border:1px solid #15847b;
-	left: 50%;
+	right: 0;
 	top: 50%;
 	z-index: 999999;
-	transform: translate(-50%, -50%);
+	transform: translateY(-50%);
 	box-shadow: var(--basicShadow);
 }
 
