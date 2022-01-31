@@ -1,5 +1,5 @@
 jQuery( document ).ready(function() {
-    console.log( "ready!" );
+    console.log( "script is ready!" );
     $('<div id="copy-popup"><div><button id="copy">Copy</button> <button id="paste">Paste</button></div><textarea id="paste-area" cols="100" rows="10"></textarea></div>').appendTo('body');
     
     const btnCopy = $('#copy');
